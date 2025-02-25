@@ -1,0 +1,65 @@
+# Python/Django
+
+# Direktori virtual environment (venv, env)
+venv/
+env/
+
+# File database SQLite
+db.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File konfigurasi lokal dan secret
+*.env
+.env.*
+config/settings/local.py
+config/.env
+
+# File cache dan log
+*.log
+*.sqlite3
+*.pid
+celerybeat-schedule
+*.swp
+*.swo
+
+# Media/Static files (bisa di-generate ulang)
+staticfiles/
+media/
+
+# Migrations cache (tetap commit file migrations yang sudah dibuat)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# VSCode / PyCharm config files
+.vscode/
+.idea/
+
+# Node.js / Vue.js
+
+# Node modules (harus di-install ulang dengan npm/yarn/pnpm)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+yarn.lock
+
+# Build output (dist folder)
+dist/
+build/
+
+# Config lokal & env Vue.js
+*.env.local
+*.env.development
+*.env.production
+
+# Log files
+logs/
+*.log
+*.gz
+
+# Dependencies lock file 
+package-lock.json
